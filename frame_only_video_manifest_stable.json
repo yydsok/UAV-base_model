@@ -1,0 +1,5753 @@
+{
+  "description": "frame-only video subset derived from merged_full_pretrain_v2_plus_video_sequences_subset10pct.json",
+  "source_manifest": "/root/autodl-tmp/train1/manifests/merged_full_pretrain_v2_plus_video_sequences_subset10pct.json",
+  "video_sequences": [
+    {
+      "dataset": "vt_tiny_mot",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/VT-Tiny-MOT/test2017/DJI_0277_2/00",
+      "ir_dir": "/root/autodl-tmp/data/VT-Tiny-MOT/test2017/DJI_0277_2/01",
+      "num_frames": 366,
+      "fps": 25.0,
+      "sequence": "DJI_0277_2"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/radio_telescope_1/img",
+      "num_frames": 387,
+      "fps": 30.0,
+      "sequence": "radio_telescope_1"
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/elebike_001/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/elebike_001/ir",
+      "num_frames": 785,
+      "fps": 30.0,
+      "sequence": "elebike_001"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/apartment_15/img",
+      "num_frames": 369,
+      "fps": 30.0,
+      "sequence": "apartment_15"
+    },
+    {
+      "dataset": "aeroscapes",
+      "modality": "rgb_only",
+      "num_frames": 4,
+      "fps": 30.0,
+      "sequence": "116101",
+      "frame_dir": "/root/autodl-tmp/data/AeroScapes/JPEGImages",
+      "filename_prefix": "116101_",
+      "sequence_stride": 8.0,
+      "already_subsampled": true
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/pedestrian_054/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/pedestrian_054/ir",
+      "num_frames": 1549,
+      "fps": 30.0,
+      "sequence": "pedestrian_054"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/hot-air_balloon_64/img",
+      "num_frames": 203,
+      "fps": 30.0,
+      "sequence": "hot-air_balloon_64"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/ferris_wheel_4/img",
+      "num_frames": 339,
+      "fps": 30.0,
+      "sequence": "ferris_wheel_4"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/sedan_152/img",
+      "num_frames": 136,
+      "fps": 30.0,
+      "sequence": "sedan_152"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/sitting_4/img",
+      "num_frames": 266,
+      "fps": 30.0,
+      "sequence": "sitting_4"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/tiger_2/img",
+      "num_frames": 1398,
+      "fps": 30.0,
+      "sequence": "tiger_2"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0080_150",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0080/150",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Val/sedan_315/img",
+      "num_frames": 126,
+      "fps": 30.0,
+      "sequence": "sedan_315"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/office_building_56/img",
+      "num_frames": 443,
+      "fps": 30.0,
+      "sequence": "office_building_56"
+    },
+    {
+      "dataset": "animaldrone",
+      "modality": "rgb_only",
+      "num_frames": 494,
+      "fps": 30.0,
+      "sequence": "AnimalDrone_PartB_jpg3_016_cut14",
+      "frame_dir": "/root/autodl-tmp/data/AnimalDrone/AnimalDrone_PartB/jpg3/016/cut14",
+      "sequence_stride": 1.0,
+      "already_subsampled": false
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0049_150",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0049/150",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/suv_80/img",
+      "num_frames": 1107,
+      "fps": 30.0,
+      "sequence": "suv_80"
+    },
+    {
+      "dataset": "manipal_uav",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/Manipal-UAV/validation/images",
+      "filename_prefix": "10_RD_P1_frame_",
+      "num_frames": 199,
+      "fps": 30.0,
+      "sequence": "validation_10_RD_P1",
+      "sequence_stride": 10.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/wind_turbine_blade_32/img",
+      "num_frames": 365,
+      "fps": 30.0,
+      "sequence": "wind_turbine_blade_32"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/yacht_19/img",
+      "num_frames": 45,
+      "fps": 30.0,
+      "sequence": "yacht_19"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/box_truck_37/img",
+      "num_frames": 185,
+      "fps": 30.0,
+      "sequence": "box_truck_37"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/sedan_42/img",
+      "num_frames": 123,
+      "fps": 30.0,
+      "sequence": "sedan_42"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0110_300",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0110/300",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "vt_tiny_mot",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/VT-Tiny-MOT/train2017/DJI_0287_1/00",
+      "ir_dir": "/root/autodl-tmp/data/VT-Tiny-MOT/train2017/DJI_0287_1/01",
+      "num_frames": 273,
+      "fps": 25.0,
+      "sequence": "DJI_0287_1"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/harvester_7/img",
+      "num_frames": 203,
+      "fps": 30.0,
+      "sequence": "harvester_7"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/office_building_13/img",
+      "num_frames": 369,
+      "fps": 30.0,
+      "sequence": "office_building_13"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/barge_2/img",
+      "num_frames": 642,
+      "fps": 30.0,
+      "sequence": "barge_2"
+    },
+    {
+      "dataset": "vt_tiny_mot",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/VT-Tiny-MOT/train2017/DJI_0317_2/00",
+      "ir_dir": "/root/autodl-tmp/data/VT-Tiny-MOT/train2017/DJI_0317_2/01",
+      "num_frames": 600,
+      "fps": 25.0,
+      "sequence": "DJI_0317_2"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/walking_371/img",
+      "num_frames": 253,
+      "fps": 30.0,
+      "sequence": "walking_371"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/suv_219/img",
+      "num_frames": 379,
+      "fps": 30.0,
+      "sequence": "suv_219"
+    },
+    {
+      "dataset": "visdrone_det",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Object Detection in Images/VisDrone2019-DET-train/images",
+      "filename_prefix": "0000200_",
+      "num_frames": 3,
+      "fps": 30.0,
+      "sequence": "VisDrone2019-DET-train_0000200",
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 8
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/box_truck_30/img",
+      "num_frames": 68,
+      "fps": 30.0,
+      "sequence": "box_truck_30"
+    },
+    {
+      "dataset": "rgbt_tiny",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/RGBT-Tiny/images/DJI_0121_2/00",
+      "ir_dir": "/root/autodl-tmp/data/RGBT-Tiny/images/DJI_0121_2/01",
+      "num_frames": 350,
+      "fps": 25.0,
+      "sequence": "DJI_0121_2"
+    },
+    {
+      "dataset": "visdrone_sot",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Single-Object Tracking/VisDrone2019-SOT-train_part2/VisDrone2019-SOT-train/sequences/uav0000331_02691_s",
+      "num_frames": 392,
+      "fps": 30.0,
+      "sequence": "uav0000331_02691_s"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0010_300",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0010/300",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0112_150",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0112/150",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/biking_121/img",
+      "num_frames": 240,
+      "fps": 30.0,
+      "sequence": "biking_121"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/reading_19/img",
+      "num_frames": 246,
+      "fps": 30.0,
+      "sequence": "reading_19"
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/pedestrian_191/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/pedestrian_191/ir",
+      "num_frames": 1110,
+      "fps": 30.0,
+      "sequence": "pedestrian_191"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/pushing_a_cart_7/img",
+      "num_frames": 266,
+      "fps": 30.0,
+      "sequence": "pushing_a_cart_7"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/sedan_301/img",
+      "num_frames": 42,
+      "fps": 30.0,
+      "sequence": "sedan_301"
+    },
+    {
+      "dataset": "rgbt_tiny",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/RGBT-Tiny/images/DJI_0135_1/00",
+      "ir_dir": "/root/autodl-tmp/data/RGBT-Tiny/images/DJI_0135_1/01",
+      "num_frames": 260,
+      "fps": 25.0,
+      "sequence": "DJI_0135_1"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0196_150",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0196/150",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/single-decker_bus_43/img",
+      "num_frames": 443,
+      "fps": 30.0,
+      "sequence": "single-decker_bus_43"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/climbing_stairs_13/img",
+      "num_frames": 1064,
+      "fps": 30.0,
+      "sequence": "climbing_stairs_13"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/walking_360/img",
+      "num_frames": 607,
+      "fps": 30.0,
+      "sequence": "walking_360"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/performing_4/img",
+      "num_frames": 134,
+      "fps": 30.0,
+      "sequence": "performing_4"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0146_250",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0146/250",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/standing_34/img",
+      "num_frames": 713,
+      "fps": 30.0,
+      "sequence": "standing_34"
+    },
+    {
+      "dataset": "visdrone_det",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Object Detection in Images/VisDrone2019-DET-train/images",
+      "filename_prefix": "9999975_",
+      "num_frames": 34,
+      "fps": 30.0,
+      "sequence": "VisDrone2019-DET-train_9999975",
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 8
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/tractor_2/img",
+      "num_frames": 274,
+      "fps": 30.0,
+      "sequence": "tractor_2"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0023_250",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0023/250",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/hatchback_7/img",
+      "num_frames": 439,
+      "fps": 30.0,
+      "sequence": "hatchback_7"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/dropside_truck_26/img",
+      "num_frames": 149,
+      "fps": 30.0,
+      "sequence": "dropside_truck_26"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/oars_3/img",
+      "num_frames": 163,
+      "fps": 30.0,
+      "sequence": "oars_3"
+    },
+    {
+      "dataset": "rgbt_tiny",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/RGBT-Tiny/images/DJI_0265_1/00",
+      "ir_dir": "/root/autodl-tmp/data/RGBT-Tiny/images/DJI_0265_1/01",
+      "num_frames": 80,
+      "fps": 25.0,
+      "sequence": "DJI_0265_1"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/single-decker_bus_45/img",
+      "num_frames": 960,
+      "fps": 30.0,
+      "sequence": "single-decker_bus_45"
+    },
+    {
+      "dataset": "uav123",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/UAV123/data_seq/person1",
+      "num_frames": 799,
+      "fps": 30.0,
+      "sequence": "person1"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Val/suv_65/img",
+      "num_frames": 519,
+      "fps": 30.0,
+      "sequence": "suv_65"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0181_250",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0181/250",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/riding_an_electric_bicycle_50/img",
+      "num_frames": 309,
+      "fps": 30.0,
+      "sequence": "riding_an_electric_bicycle_50"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/van_33/img",
+      "num_frames": 214,
+      "fps": 30.0,
+      "sequence": "van_33"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/single-decker_bus_35/img",
+      "num_frames": 192,
+      "fps": 30.0,
+      "sequence": "single-decker_bus_35"
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/car_031/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/car_031/ir",
+      "num_frames": 7622,
+      "fps": 30.0,
+      "sequence": "car_031"
+    },
+    {
+      "dataset": "monet",
+      "modality": "ir_only",
+      "frame_dir": "/root/autodl-tmp/data/MONET/monet_train/dirtroad_06/lwir",
+      "num_frames": 2179,
+      "fps": 30.0,
+      "sequence": "dirtroad_06"
+    },
+    {
+      "dataset": "rgbt_tiny",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/RGBT-Tiny/images/DJI_0067_2/00",
+      "ir_dir": "/root/autodl-tmp/data/RGBT-Tiny/images/DJI_0067_2/01",
+      "num_frames": 500,
+      "fps": 25.0,
+      "sequence": "DJI_0067_2"
+    },
+    {
+      "dataset": "visdrone_det",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Object Detection in Images/VisDrone2019-DET-train/images",
+      "filename_prefix": "0000288_",
+      "num_frames": 19,
+      "fps": 30.0,
+      "sequence": "VisDrone2019-DET-train_0000288",
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 8
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/calling_9/img",
+      "num_frames": 624,
+      "fps": 30.0,
+      "sequence": "calling_9"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/hot-air_balloon_76/img",
+      "num_frames": 173,
+      "fps": 30.0,
+      "sequence": "hot-air_balloon_76"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/beacon_18/img",
+      "num_frames": 121,
+      "fps": 30.0,
+      "sequence": "beacon_18"
+    },
+    {
+      "dataset": "uav123",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/UAV123/data_seq/car3_s",
+      "num_frames": 1300,
+      "fps": 30.0,
+      "sequence": "car3_s"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0137_300",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0137/300",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "rgbt_tiny",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/RGBT-Tiny/images/DJI_0089_2/00",
+      "ir_dir": "/root/autodl-tmp/data/RGBT-Tiny/images/DJI_0089_2/01",
+      "num_frames": 300,
+      "fps": 25.0,
+      "sequence": "DJI_0089_2"
+    },
+    {
+      "dataset": "mdmt",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/MDMT/test/1/48-1",
+      "num_frames": 700,
+      "fps": 30.0,
+      "sequence": "1_48-1"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/bulk_carrier_29/img",
+      "num_frames": 566,
+      "fps": 30.0,
+      "sequence": "bulk_carrier_29"
+    },
+    {
+      "dataset": "visdrone_det",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Object Detection in Images/VisDrone2019-DET-test-challenge/images",
+      "filename_prefix": "9999958_",
+      "num_frames": 28,
+      "fps": 30.0,
+      "sequence": "VisDrone2019-DET-test-challenge_9999958",
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 8
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/cell_tower_5/img",
+      "num_frames": 254,
+      "fps": 30.0,
+      "sequence": "cell_tower_5"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/walking_340/img",
+      "num_frames": 649,
+      "fps": 30.0,
+      "sequence": "walking_340"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0015_150",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0015/150",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "uavid",
+      "modality": "rgb_only",
+      "num_frames": 10,
+      "fps": 30.0,
+      "sequence": "train_seq2",
+      "frame_dir": "/root/autodl-tmp/data/UAVid/train/seq2/Images",
+      "sequence_stride": 100.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 8
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Val/office_building_73/img",
+      "num_frames": 900,
+      "fps": 30.0,
+      "sequence": "office_building_73"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0188_250",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0188/250",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "animaldrone",
+      "modality": "rgb_only",
+      "num_frames": 239,
+      "fps": 30.0,
+      "sequence": "AnimalDrone_PartB_jpg_012_cut2",
+      "frame_dir": "/root/autodl-tmp/data/AnimalDrone/AnimalDrone_PartB/jpg/012/cut2",
+      "sequence_stride": 1.0,
+      "already_subsampled": false
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/coach_41/img",
+      "num_frames": 407,
+      "fps": 30.0,
+      "sequence": "coach_41"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/rapid_transit_5/img",
+      "num_frames": 930,
+      "fps": 30.0,
+      "sequence": "rapid_transit_5"
+    },
+    {
+      "dataset": "visdrone_sot",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Single-Object Tracking/VisDrone2019-SOT-train_part1/VisDrone2019-SOT-train/sequences/uav0000003_00000_s",
+      "num_frames": 145,
+      "fps": 30.0,
+      "sequence": "uav0000003_00000_s"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/rapid_transit_12/img",
+      "num_frames": 600,
+      "fps": 30.0,
+      "sequence": "rapid_transit_12"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/box_truck_22/img",
+      "num_frames": 228,
+      "fps": 30.0,
+      "sequence": "box_truck_22"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0046_150",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0046/150",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/skyscraper_58/img",
+      "num_frames": 424,
+      "fps": 30.0,
+      "sequence": "skyscraper_58"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/motorboat_41/img",
+      "num_frames": 221,
+      "fps": 30.0,
+      "sequence": "motorboat_41"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/hot-air_balloon_11/img",
+      "num_frames": 121,
+      "fps": 30.0,
+      "sequence": "hot-air_balloon_11"
+    },
+    {
+      "dataset": "visdrone_cc",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Crowd Counting/sequences/00106",
+      "num_frames": 30,
+      "fps": 30.0,
+      "sequence": "00106"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Val/office_building_45/img",
+      "num_frames": 857,
+      "fps": 30.0,
+      "sequence": "office_building_45"
+    },
+    {
+      "dataset": "vt_tiny_mot",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/VT-Tiny-MOT/train2017/DJI_0287_2/00",
+      "ir_dir": "/root/autodl-tmp/data/VT-Tiny-MOT/train2017/DJI_0287_2/01",
+      "num_frames": 490,
+      "fps": 25.0,
+      "sequence": "DJI_0287_2"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/sitting_10/img",
+      "num_frames": 359,
+      "fps": 30.0,
+      "sequence": "sitting_10"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/eagle_1/img",
+      "num_frames": 901,
+      "fps": 30.0,
+      "sequence": "eagle_1"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/sedan_234/img",
+      "num_frames": 303,
+      "fps": 30.0,
+      "sequence": "sedan_234"
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/pedestrian_146/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/pedestrian_146/ir",
+      "num_frames": 1249,
+      "fps": 30.0,
+      "sequence": "pedestrian_146"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/container_ship_3/img",
+      "num_frames": 541,
+      "fps": 30.0,
+      "sequence": "container_ship_3"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0101_200",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0101/200",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/car_002/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/car_002/ir",
+      "num_frames": 1561,
+      "fps": 30.0,
+      "sequence": "car_002"
+    },
+    {
+      "dataset": "vt_tiny_mot",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/VT-Tiny-MOT/train2017/DJI_0285_3/00",
+      "ir_dir": "/root/autodl-tmp/data/VT-Tiny-MOT/train2017/DJI_0285_3/01",
+      "num_frames": 182,
+      "fps": 25.0,
+      "sequence": "DJI_0285_3"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/suv_64/img",
+      "num_frames": 148,
+      "fps": 30.0,
+      "sequence": "suv_64"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/playing_11/img",
+      "num_frames": 251,
+      "fps": 30.0,
+      "sequence": "playing_11"
+    },
+    {
+      "dataset": "dronecrowd",
+      "modality": "rgb_only",
+      "num_frames": 360,
+      "fps": 30.0,
+      "sequence": "val_data_images",
+      "frame_dir": "/root/autodl-tmp/data/DroneCrowd/val_data/images",
+      "sequence_stride": 1.0,
+      "already_subsampled": false
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/pedalo_8/img",
+      "num_frames": 222,
+      "fps": 30.0,
+      "sequence": "pedalo_8"
+    },
+    {
+      "dataset": "uav123",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/UAV123/data_seq/building1",
+      "num_frames": 469,
+      "fps": 30.0,
+      "sequence": "building1"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/sunrise_3/img",
+      "num_frames": 358,
+      "fps": 30.0,
+      "sequence": "sunrise_3"
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/elebike_016/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/elebike_016/ir",
+      "num_frames": 520,
+      "fps": 30.0,
+      "sequence": "elebike_016"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/box_truck_14/img",
+      "num_frames": 133,
+      "fps": 30.0,
+      "sequence": "box_truck_14"
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/car_106/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/car_106/ir",
+      "num_frames": 856,
+      "fps": 30.0,
+      "sequence": "car_106"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/walking_263/img",
+      "num_frames": 116,
+      "fps": 30.0,
+      "sequence": "walking_263"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/concrete_mixer_truck_7/img",
+      "num_frames": 510,
+      "fps": 30.0,
+      "sequence": "concrete_mixer_truck_7"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/trimaran_27/img",
+      "num_frames": 134,
+      "fps": 30.0,
+      "sequence": "trimaran_27"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/coach_31/img",
+      "num_frames": 148,
+      "fps": 30.0,
+      "sequence": "coach_31"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/walking_25/img",
+      "num_frames": 140,
+      "fps": 30.0,
+      "sequence": "walking_25"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/office_building_9/img",
+      "num_frames": 443,
+      "fps": 30.0,
+      "sequence": "office_building_9"
+    },
+    {
+      "dataset": "visdrone_sot",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Single-Object Tracking/VisDrone2019-SOT-val/VisDrone2019-SOT-val/sequences/uav0000115_00606_s",
+      "num_frames": 388,
+      "fps": 30.0,
+      "sequence": "uav0000115_00606_s"
+    },
+    {
+      "dataset": "animaldrone",
+      "modality": "rgb_only",
+      "num_frames": 298,
+      "fps": 30.0,
+      "sequence": "AnimalDrone_PartB_jpg3_019_cut5",
+      "frame_dir": "/root/autodl-tmp/data/AnimalDrone/AnimalDrone_PartB/jpg3/019/cut5",
+      "sequence_stride": 1.0,
+      "already_subsampled": false
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/tractor_54/img",
+      "num_frames": 116,
+      "fps": 30.0,
+      "sequence": "tractor_54"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/harvester_12/img",
+      "num_frames": 136,
+      "fps": 30.0,
+      "sequence": "harvester_12"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/biking_23/img",
+      "num_frames": 267,
+      "fps": 30.0,
+      "sequence": "biking_23"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/gantry_crane_2/img",
+      "num_frames": 176,
+      "fps": 30.0,
+      "sequence": "gantry_crane_2"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0171_300",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0171/300",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "visdrone_det",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Object Detection in Images/VisDrone2019-DET-train/images",
+      "filename_prefix": "0000264_",
+      "num_frames": 23,
+      "fps": 30.0,
+      "sequence": "VisDrone2019-DET-train_0000264",
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 8
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/harvester_25/img",
+      "num_frames": 351,
+      "fps": 30.0,
+      "sequence": "harvester_25"
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/truck_008/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/truck_008/ir",
+      "num_frames": 2737,
+      "fps": 30.0,
+      "sequence": "truck_008"
+    },
+    {
+      "dataset": "uav123",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/UAV123/data_seq/car4",
+      "num_frames": 1345,
+      "fps": 30.0,
+      "sequence": "car4"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/walking_190/img",
+      "num_frames": 614,
+      "fps": 30.0,
+      "sequence": "walking_190"
+    },
+    {
+      "dataset": "uav123",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/UAV123/data_seq/group2",
+      "num_frames": 2683,
+      "fps": 30.0,
+      "sequence": "group2"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0139_200",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0139/200",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/sedan_259/img",
+      "num_frames": 187,
+      "fps": 30.0,
+      "sequence": "sedan_259"
+    },
+    {
+      "dataset": "uav123",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/UAV123/data_seq/boat5",
+      "num_frames": 505,
+      "fps": 30.0,
+      "sequence": "boat5"
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/car_020/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/car_020/ir",
+      "num_frames": 5860,
+      "fps": 30.0,
+      "sequence": "car_020"
+    },
+    {
+      "dataset": "uav123",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/UAV123/data_seq/boat1",
+      "num_frames": 901,
+      "fps": 30.0,
+      "sequence": "boat1"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0131_300",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0131/300",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/skyscraper_64/img",
+      "num_frames": 443,
+      "fps": 30.0,
+      "sequence": "skyscraper_64"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Val/trimaran_28/img",
+      "num_frames": 289,
+      "fps": 30.0,
+      "sequence": "trimaran_28"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/ferris_wheel_pod_3/img",
+      "num_frames": 369,
+      "fps": 30.0,
+      "sequence": "ferris_wheel_pod_3"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/sunset_8/img",
+      "num_frames": 701,
+      "fps": 30.0,
+      "sequence": "sunset_8"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/pagoda_32/img",
+      "num_frames": 1022,
+      "fps": 30.0,
+      "sequence": "pagoda_32"
+    },
+    {
+      "dataset": "visdrone_cc",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Crowd Counting/sequences/00098",
+      "num_frames": 30,
+      "fps": 30.0,
+      "sequence": "00098"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/biking_105/img",
+      "num_frames": 261,
+      "fps": 30.0,
+      "sequence": "biking_105"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/office_building_50/img",
+      "num_frames": 443,
+      "fps": 30.0,
+      "sequence": "office_building_50"
+    },
+    {
+      "dataset": "visdrone_mot",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Multi-Object Tracking/VisDrone2019-MOT-test-dev/sequences/uav0000073_00600_v",
+      "num_frames": 328,
+      "fps": 30.0,
+      "sequence": "uav0000073_00600_v"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/beacon_12/img",
+      "num_frames": 490,
+      "fps": 30.0,
+      "sequence": "beacon_12"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/playing_basketball_11/img",
+      "num_frames": 760,
+      "fps": 30.0,
+      "sequence": "playing_basketball_11"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/walking_280/img",
+      "num_frames": 262,
+      "fps": 30.0,
+      "sequence": "walking_280"
+    },
+    {
+      "dataset": "visdrone_mot",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Multi-Object Tracking/VisDrone2019-MOT-train/sequences/uav0000072_06432_v",
+      "num_frames": 97,
+      "fps": 30.0,
+      "sequence": "uav0000072_06432_v"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/walking_149/img",
+      "num_frames": 296,
+      "fps": 30.0,
+      "sequence": "walking_149"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/hatchback_54/img",
+      "num_frames": 107,
+      "fps": 30.0,
+      "sequence": "hatchback_54"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/hot-air_balloon_66/img",
+      "num_frames": 260,
+      "fps": 30.0,
+      "sequence": "hot-air_balloon_66"
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/tricycle_034/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/tricycle_034/ir",
+      "num_frames": 4271,
+      "fps": 30.0,
+      "sequence": "tricycle_034"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/walking_239/img",
+      "num_frames": 842,
+      "fps": 30.0,
+      "sequence": "walking_239"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/dinghy_3/img",
+      "num_frames": 150,
+      "fps": 30.0,
+      "sequence": "dinghy_3"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/tractor_50/img",
+      "num_frames": 227,
+      "fps": 30.0,
+      "sequence": "tractor_50"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0196_250",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0196/250",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0108_300",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0108/300",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0115_200",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0115/200",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "visdrone_det",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Object Detection in Images/VisDrone2019-DET-train/images",
+      "filename_prefix": "0000042_",
+      "num_frames": 3,
+      "fps": 30.0,
+      "sequence": "VisDrone2019-DET-train_0000042",
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 8
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/pedestrian_151/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/pedestrian_151/ir",
+      "num_frames": 2521,
+      "fps": 30.0,
+      "sequence": "pedestrian_151"
+    },
+    {
+      "dataset": "visdrone_det",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Object Detection in Images/VisDrone2019-DET-val/images",
+      "filename_prefix": "0000280_",
+      "num_frames": 18,
+      "fps": 30.0,
+      "sequence": "VisDrone2019-DET-val_0000280",
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 8
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/pagoda_47/img",
+      "num_frames": 177,
+      "fps": 30.0,
+      "sequence": "pagoda_47"
+    },
+    {
+      "dataset": "visdrone_det",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Object Detection in Images/VisDrone2019-DET-test-dev/images",
+      "filename_prefix": "0000272_",
+      "num_frames": 10,
+      "fps": 30.0,
+      "sequence": "VisDrone2019-DET-test-dev_0000272",
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 8
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/biking_32/img",
+      "num_frames": 214,
+      "fps": 30.0,
+      "sequence": "biking_32"
+    },
+    {
+      "dataset": "udd",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/UDD/m1-only-src",
+      "num_frames": 288,
+      "fps": 30.0,
+      "sequence": "m1-only-src",
+      "sequence_stride": 1.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/suv_112/img",
+      "num_frames": 285,
+      "fps": 30.0,
+      "sequence": "suv_112"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/single-decker_bus_59/img",
+      "num_frames": 344,
+      "fps": 30.0,
+      "sequence": "single-decker_bus_59"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/chute_rafting_1/img",
+      "num_frames": 432,
+      "fps": 30.0,
+      "sequence": "chute_rafting_1"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0187_250",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0187/250",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0152_250",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0152/250",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0080_300",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0080/300",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "vt_tiny_mot",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/VT-Tiny-MOT/test2017/DJI_0257_2/00",
+      "ir_dir": "/root/autodl-tmp/data/VT-Tiny-MOT/test2017/DJI_0257_2/01",
+      "num_frames": 590,
+      "fps": 25.0,
+      "sequence": "DJI_0257_2"
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/pedestrian_149/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/pedestrian_149/ir",
+      "num_frames": 9776,
+      "fps": 30.0,
+      "sequence": "pedestrian_149"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/walking_254/img",
+      "num_frames": 358,
+      "fps": 30.0,
+      "sequence": "walking_254"
+    },
+    {
+      "dataset": "visdrone_det",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Object Detection in Images/VisDrone2019-DET-train/images",
+      "filename_prefix": "0000145_",
+      "num_frames": 2,
+      "fps": 30.0,
+      "sequence": "VisDrone2019-DET-train_0000145",
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 8
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/minivan_57/img",
+      "num_frames": 351,
+      "fps": 30.0,
+      "sequence": "minivan_57"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Val/snowmobile_2/img",
+      "num_frames": 212,
+      "fps": 30.0,
+      "sequence": "snowmobile_2"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/suv_77/img",
+      "num_frames": 133,
+      "fps": 30.0,
+      "sequence": "suv_77"
+    },
+    {
+      "dataset": "visdrone_sot",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Single-Object Tracking/VisDrone2019-SOT-train_part2/VisDrone2019-SOT-train/sequences/uav0000199_00000_s",
+      "num_frames": 1608,
+      "fps": 30.0,
+      "sequence": "uav0000199_00000_s"
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/truck_004/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/truck_004/ir",
+      "num_frames": 2313,
+      "fps": 30.0,
+      "sequence": "truck_004"
+    },
+    {
+      "dataset": "au_air",
+      "modality": "rgb_only",
+      "num_frames": 4660,
+      "fps": 30.0,
+      "sequence": "frame_20190905091750_x",
+      "frame_dir": "/root/autodl-tmp/data/AU-AIR/auair2019data",
+      "filename_prefix": "frame_20190905091750_x_",
+      "sequence_stride": 1.0,
+      "already_subsampled": false
+    },
+    {
+      "dataset": "visdrone_det",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Object Detection in Images/VisDrone2019-DET-train/images",
+      "filename_prefix": "9999942_",
+      "num_frames": 270,
+      "fps": 30.0,
+      "sequence": "VisDrone2019-DET-train_9999942",
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 8
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/biking_73/img",
+      "num_frames": 262,
+      "fps": 30.0,
+      "sequence": "biking_73"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/biking_116/img",
+      "num_frames": 385,
+      "fps": 30.0,
+      "sequence": "biking_116"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/water_scooter_21/img",
+      "num_frames": 367,
+      "fps": 30.0,
+      "sequence": "water_scooter_21"
+    },
+    {
+      "dataset": "rgbt_tiny",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/RGBT-Tiny/images/DJI_0237_2/00",
+      "ir_dir": "/root/autodl-tmp/data/RGBT-Tiny/images/DJI_0237_2/01",
+      "num_frames": 410,
+      "fps": 25.0,
+      "sequence": "DJI_0237_2"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/sedan_313/img",
+      "num_frames": 170,
+      "fps": 30.0,
+      "sequence": "sedan_313"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0025_300",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0025/300",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/riding_a_motorcycle_15/img",
+      "num_frames": 87,
+      "fps": 30.0,
+      "sequence": "riding_a_motorcycle_15"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/cab_29/img",
+      "num_frames": 123,
+      "fps": 30.0,
+      "sequence": "cab_29"
+    },
+    {
+      "dataset": "visdrone_sot",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Single-Object Tracking/VisDrone2019-SOT-train_part1/VisDrone2019-SOT-train/sequences/uav0000072_03792_s",
+      "num_frames": 289,
+      "fps": 30.0,
+      "sequence": "uav0000072_03792_s"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/locomotive_6/img",
+      "num_frames": 251,
+      "fps": 30.0,
+      "sequence": "locomotive_6"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/cab_23/img",
+      "num_frames": 234,
+      "fps": 30.0,
+      "sequence": "cab_23"
+    },
+    {
+      "dataset": "visdrone_cc",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Crowd Counting/sequences/00102",
+      "num_frames": 30,
+      "fps": 30.0,
+      "sequence": "00102"
+    },
+    {
+      "dataset": "visdrone_cc",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Crowd Counting/sequences/00012",
+      "num_frames": 30,
+      "fps": 30.0,
+      "sequence": "00012"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0149_200",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0149/200",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "visdrone_det",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Object Detection in Images/VisDrone2019-DET-val/images",
+      "filename_prefix": "0000194_",
+      "num_frames": 7,
+      "fps": 30.0,
+      "sequence": "VisDrone2019-DET-val_0000194",
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 8
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/riding_a_motorcycle_20/img",
+      "num_frames": 148,
+      "fps": 30.0,
+      "sequence": "riding_a_motorcycle_20"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/pagoda_57/img",
+      "num_frames": 1917,
+      "fps": 30.0,
+      "sequence": "pagoda_57"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0104_300",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0104/300",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/motorboat_15/img",
+      "num_frames": 221,
+      "fps": 30.0,
+      "sequence": "motorboat_15"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0092_200",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0092/200",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/golf_cart_25/img",
+      "num_frames": 262,
+      "fps": 30.0,
+      "sequence": "golf_cart_25"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/horse_13/img",
+      "num_frames": 198,
+      "fps": 30.0,
+      "sequence": "horse_13"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Val/motorboat_2/img",
+      "num_frames": 328,
+      "fps": 30.0,
+      "sequence": "motorboat_2"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/chimney_19/img",
+      "num_frames": 1007,
+      "fps": 30.0,
+      "sequence": "chimney_19"
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/car_048/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/car_048/ir",
+      "num_frames": 2787,
+      "fps": 30.0,
+      "sequence": "car_048"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/bird_13/img",
+      "num_frames": 132,
+      "fps": 30.0,
+      "sequence": "bird_13"
+    },
+    {
+      "dataset": "visdrone_mot",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Multi-Object Tracking/VisDrone2019-MOT-train/sequences/uav0000150_02310_v",
+      "num_frames": 348,
+      "fps": 30.0,
+      "sequence": "uav0000150_02310_v"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/hatchback_107/img",
+      "num_frames": 262,
+      "fps": 30.0,
+      "sequence": "hatchback_107"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0039_300",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0039/300",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0185_150",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0185/150",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "animaldrone",
+      "modality": "rgb_only",
+      "num_frames": 298,
+      "fps": 30.0,
+      "sequence": "AnimalDrone_PartB_jpg3_016_cut6",
+      "frame_dir": "/root/autodl-tmp/data/AnimalDrone/AnimalDrone_PartB/jpg3/016/cut6",
+      "sequence_stride": 1.0,
+      "already_subsampled": false
+    },
+    {
+      "dataset": "vt_tiny_mot",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/VT-Tiny-MOT/train2017/DJI_0107_1/00",
+      "ir_dir": "/root/autodl-tmp/data/VT-Tiny-MOT/train2017/DJI_0107_1/01",
+      "num_frames": 70,
+      "fps": 25.0,
+      "sequence": "DJI_0107_1"
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/pedestrian_185/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/pedestrian_185/ir",
+      "num_frames": 1338,
+      "fps": 30.0,
+      "sequence": "pedestrian_185"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0060_250",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0060/250",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0032_200",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0032/200",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "aeroscapes",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "002000",
+      "frame_dir": "/root/autodl-tmp/data/AeroScapes/JPEGImages",
+      "filename_prefix": "002000_",
+      "sequence_stride": 1.0,
+      "already_subsampled": false
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/tractor_44/img",
+      "num_frames": 205,
+      "fps": 30.0,
+      "sequence": "tractor_44"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/sitting_on_a_bike_1/img",
+      "num_frames": 532,
+      "fps": 30.0,
+      "sequence": "sitting_on_a_bike_1"
+    },
+    {
+      "dataset": "uavdt",
+      "modality": "rgb_only",
+      "num_frames": 359,
+      "fps": 30.0,
+      "sequence": "UAV-benchmark-S_S0304",
+      "frame_dir": "/root/autodl-tmp/data/UAVDT/UAV-benchmark-S/S0304",
+      "sequence_stride": 1.0,
+      "already_subsampled": false
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/minivan_27/img",
+      "num_frames": 133,
+      "fps": 30.0,
+      "sequence": "minivan_27"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/reef_1/img",
+      "num_frames": 1139,
+      "fps": 30.0,
+      "sequence": "reef_1"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0183_200",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0183/200",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/walking_318/img",
+      "num_frames": 328,
+      "fps": 30.0,
+      "sequence": "walking_318"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/tugboat_6/img",
+      "num_frames": 276,
+      "fps": 30.0,
+      "sequence": "tugboat_6"
+    },
+    {
+      "dataset": "visdrone_mot",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Multi-Object Tracking/VisDrone2019-MOT-train/sequences/uav0000266_03598_v",
+      "num_frames": 548,
+      "fps": 30.0,
+      "sequence": "uav0000266_03598_v"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0014_300",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0014/300",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/goldfish_2/img",
+      "num_frames": 160,
+      "fps": 30.0,
+      "sequence": "goldfish_2"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/wind_turbine_blade_31/img",
+      "num_frames": 786,
+      "fps": 30.0,
+      "sequence": "wind_turbine_blade_31"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0031_150",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0031/150",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/sloop_17/img",
+      "num_frames": 105,
+      "fps": 30.0,
+      "sequence": "sloop_17"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/fox_1/img",
+      "num_frames": 628,
+      "fps": 30.0,
+      "sequence": "fox_1"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0052_300",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0052/300",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/bamboo_raft_6/img",
+      "num_frames": 483,
+      "fps": 30.0,
+      "sequence": "bamboo_raft_6"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0102_200",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0102/200",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/minivan_99/img",
+      "num_frames": 198,
+      "fps": 30.0,
+      "sequence": "minivan_99"
+    },
+    {
+      "dataset": "uavdt",
+      "modality": "rgb_only",
+      "num_frames": 2035,
+      "fps": 30.0,
+      "sequence": "UAV-benchmark-M_M0603",
+      "frame_dir": "/root/autodl-tmp/data/UAVDT/UAV-benchmark-M/M0603",
+      "sequence_stride": 1.0,
+      "already_subsampled": false
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/wildebeest_3/img",
+      "num_frames": 141,
+      "fps": 30.0,
+      "sequence": "wildebeest_3"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/minivan_114/img",
+      "num_frames": 78,
+      "fps": 30.0,
+      "sequence": "minivan_114"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0192_150",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0192/150",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "visdrone_det",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Object Detection in Images/VisDrone2019-DET-val/images",
+      "filename_prefix": "0000086_",
+      "num_frames": 5,
+      "fps": 30.0,
+      "sequence": "VisDrone2019-DET-val_0000086",
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 8
+    },
+    {
+      "dataset": "visdrone_sot",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Single-Object Tracking/VisDrone2019-SOT-test-challenge_part2/VisDrone2019-SOT-test-challenge/sequences/uav0000383_00001_s",
+      "num_frames": 3621,
+      "fps": 30.0,
+      "sequence": "uav0000383_00001_s"
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/bike_001/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/bike_001/ir",
+      "num_frames": 7390,
+      "fps": 30.0,
+      "sequence": "bike_001"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/riding_a_motorcycle_28/img",
+      "num_frames": 266,
+      "fps": 30.0,
+      "sequence": "riding_a_motorcycle_28"
+    },
+    {
+      "dataset": "uavdt",
+      "modality": "rgb_only",
+      "num_frames": 324,
+      "fps": 30.0,
+      "sequence": "UAV-benchmark-S_S1701",
+      "frame_dir": "/root/autodl-tmp/data/UAVDT/UAV-benchmark-S/S1701",
+      "sequence_stride": 1.0,
+      "already_subsampled": false
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/beacon_8/img",
+      "num_frames": 217,
+      "fps": 30.0,
+      "sequence": "beacon_8"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/bulk_carrier_1/img",
+      "num_frames": 1201,
+      "fps": 30.0,
+      "sequence": "bulk_carrier_1"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/walking_345/img",
+      "num_frames": 262,
+      "fps": 30.0,
+      "sequence": "walking_345"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0111_250",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0111/250",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/pushing_a_cart_25/img",
+      "num_frames": 572,
+      "fps": 30.0,
+      "sequence": "pushing_a_cart_25"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/yacht_4/img",
+      "num_frames": 254,
+      "fps": 30.0,
+      "sequence": "yacht_4"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/lying_5/img",
+      "num_frames": 266,
+      "fps": 30.0,
+      "sequence": "lying_5"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/hatchback_102/img",
+      "num_frames": 262,
+      "fps": 30.0,
+      "sequence": "hatchback_102"
+    },
+    {
+      "dataset": "dtb70",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/DTB70/MountainBike1/img",
+      "num_frames": 109,
+      "fps": 30.0,
+      "sequence": "MountainBike1"
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/pedestrian_082/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/pedestrian_082/ir",
+      "num_frames": 1201,
+      "fps": 30.0,
+      "sequence": "pedestrian_082"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/standing_75/img",
+      "num_frames": 747,
+      "fps": 30.0,
+      "sequence": "standing_75"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/riding_an_electric_bicycle_67/img",
+      "num_frames": 148,
+      "fps": 30.0,
+      "sequence": "riding_an_electric_bicycle_67"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0099_200",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0099/200",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/container_truck_8/img",
+      "num_frames": 86,
+      "fps": 30.0,
+      "sequence": "container_truck_8"
+    },
+    {
+      "dataset": "visdrone_sot",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Single-Object Tracking/VisDrone2019-SOT-test-challenge_part1/VisDrone2019-SOT-test-challenge/sequences/uav0000075_01056_s",
+      "num_frames": 241,
+      "fps": 30.0,
+      "sequence": "uav0000075_01056_s"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0184_150",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0184/150",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/tricycle_008/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/tricycle_008/ir",
+      "num_frames": 499,
+      "fps": 30.0,
+      "sequence": "tricycle_008"
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/elebike_018/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/elebike_018/ir",
+      "num_frames": 497,
+      "fps": 30.0,
+      "sequence": "elebike_018"
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/pedestrian_141/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/pedestrian_141/ir",
+      "num_frames": 7065,
+      "fps": 30.0,
+      "sequence": "pedestrian_141"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/single-decker_bus_19/img",
+      "num_frames": 351,
+      "fps": 30.0,
+      "sequence": "single-decker_bus_19"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/suv_27/img",
+      "num_frames": 811,
+      "fps": 30.0,
+      "sequence": "suv_27"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0150_250",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0150/250",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "rgbt_tiny",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/RGBT-Tiny/images/DJI_0159_2/00",
+      "ir_dir": "/root/autodl-tmp/data/RGBT-Tiny/images/DJI_0159_2/01",
+      "num_frames": 250,
+      "fps": 25.0,
+      "sequence": "DJI_0159_2"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/sea_lion_1/img",
+      "num_frames": 160,
+      "fps": 30.0,
+      "sequence": "sea_lion_1"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/hot-air_balloon_27/img",
+      "num_frames": 122,
+      "fps": 30.0,
+      "sequence": "hot-air_balloon_27"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/barge_13/img",
+      "num_frames": 180,
+      "fps": 30.0,
+      "sequence": "barge_13"
+    },
+    {
+      "dataset": "uav123",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/UAV123/data_seq/truck4",
+      "num_frames": 1261,
+      "fps": 30.0,
+      "sequence": "truck4"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0154_150",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0154/150",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/yacht_36/img",
+      "num_frames": 247,
+      "fps": 30.0,
+      "sequence": "yacht_36"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/cab_13/img",
+      "num_frames": 330,
+      "fps": 30.0,
+      "sequence": "cab_13"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/sightseeing_cruise_10/img",
+      "num_frames": 486,
+      "fps": 30.0,
+      "sequence": "sightseeing_cruise_10"
+    },
+    {
+      "dataset": "rgbt_tiny",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/RGBT-Tiny/images/DJI_0139_2/00",
+      "ir_dir": "/root/autodl-tmp/data/RGBT-Tiny/images/DJI_0139_2/01",
+      "num_frames": 400,
+      "fps": 25.0,
+      "sequence": "DJI_0139_2"
+    },
+    {
+      "dataset": "visdrone_sot",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Single-Object Tracking/VisDrone2019-SOT-test-challenge_part1/VisDrone2019-SOT-test-challenge/sequences/uav0000094_00000_s",
+      "num_frames": 944,
+      "fps": 30.0,
+      "sequence": "uav0000094_00000_s"
+    },
+    {
+      "dataset": "animaldrone",
+      "modality": "rgb_only",
+      "num_frames": 387,
+      "fps": 30.0,
+      "sequence": "AnimalDrone_PartB_jpg3_017_cut2",
+      "frame_dir": "/root/autodl-tmp/data/AnimalDrone/AnimalDrone_PartB/jpg3/017/cut2",
+      "sequence_stride": 1.0,
+      "already_subsampled": false
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/high_speed_train_18/img",
+      "num_frames": 201,
+      "fps": 30.0,
+      "sequence": "high_speed_train_18"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/calling_1/img",
+      "num_frames": 297,
+      "fps": 30.0,
+      "sequence": "calling_1"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/sedan_94/img",
+      "num_frames": 552,
+      "fps": 30.0,
+      "sequence": "sedan_94"
+    },
+    {
+      "dataset": "visdrone_det",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Object Detection in Images/VisDrone2019-DET-train/images",
+      "filename_prefix": "0000143_",
+      "num_frames": 8,
+      "fps": 30.0,
+      "sequence": "VisDrone2019-DET-train_0000143",
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 8
+    },
+    {
+      "dataset": "dtb70",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/DTB70/Girl1/img",
+      "num_frames": 218,
+      "fps": 30.0,
+      "sequence": "Girl1"
+    },
+    {
+      "dataset": "visdrone_sot",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Single-Object Tracking/VisDrone2019-SOT-train_part1/VisDrone2019-SOT-train/sequences/uav0000043_00377_s",
+      "num_frames": 510,
+      "fps": 30.0,
+      "sequence": "uav0000043_00377_s"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/wind_turbine_blade_9/img",
+      "num_frames": 268,
+      "fps": 30.0,
+      "sequence": "wind_turbine_blade_9"
+    },
+    {
+      "dataset": "m3ot",
+      "modality": "rgbir_paired",
+      "num_frames": 300,
+      "fps": 30.0,
+      "sequence": "train_2-04",
+      "rgb_dir": "/root/autodl-tmp/data/M3OT/2/rgb/train/2-04/img1",
+      "ir_dir": "/root/autodl-tmp/data/M3OT/2/ir/train/2-04T/img1",
+      "sequence_stride": 1.0,
+      "already_subsampled": false
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/trimaran_47/img",
+      "num_frames": 96,
+      "fps": 30.0,
+      "sequence": "trimaran_47"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/sedan_316/img",
+      "num_frames": 406,
+      "fps": 30.0,
+      "sequence": "sedan_316"
+    },
+    {
+      "dataset": "visdrone_sot",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Single-Object Tracking/VisDrone2019-SOT-test-dev/VisDrone2018-SOT-test-dev/sequences/uav0000074_04992_s",
+      "num_frames": 625,
+      "fps": 30.0,
+      "sequence": "uav0000074_04992_s"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/riding_an_electric_bicycle_54/img",
+      "num_frames": 151,
+      "fps": 30.0,
+      "sequence": "riding_an_electric_bicycle_54"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/walking_403/img",
+      "num_frames": 488,
+      "fps": 30.0,
+      "sequence": "walking_403"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Val/yacht_32/img",
+      "num_frames": 973,
+      "fps": 30.0,
+      "sequence": "yacht_32"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0195_200",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0195/200",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0038_300",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0038/300",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/skyscraper_26/img",
+      "num_frames": 336,
+      "fps": 30.0,
+      "sequence": "skyscraper_26"
+    },
+    {
+      "dataset": "uavscenes",
+      "modality": "rgb_only",
+      "num_frames": 2260,
+      "fps": 2.0,
+      "sequence": "interval5_AMvalley01",
+      "frame_dir": "/root/autodl-tmp/data/UAVScenes/interval=5/interval5_CAM_LIDAR/interval5_AMvalley01/interval5_CAM",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 8
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/coach_7/img",
+      "num_frames": 876,
+      "fps": 30.0,
+      "sequence": "coach_7"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/suv_159/img",
+      "num_frames": 586,
+      "fps": 30.0,
+      "sequence": "suv_159"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/minibus_7/img",
+      "num_frames": 308,
+      "fps": 30.0,
+      "sequence": "minibus_7"
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/pedestrian_003/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/pedestrian_003/ir",
+      "num_frames": 1060,
+      "fps": 30.0,
+      "sequence": "pedestrian_003"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/sedan_215/img",
+      "num_frames": 471,
+      "fps": 30.0,
+      "sequence": "sedan_215"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/single-decker_bus_4/img",
+      "num_frames": 330,
+      "fps": 30.0,
+      "sequence": "single-decker_bus_4"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/running_21/img",
+      "num_frames": 126,
+      "fps": 30.0,
+      "sequence": "running_21"
+    },
+    {
+      "dataset": "uavdt",
+      "modality": "rgb_only",
+      "num_frames": 1378,
+      "fps": 30.0,
+      "sequence": "UAV-benchmark-S_S1305",
+      "frame_dir": "/root/autodl-tmp/data/UAVDT/UAV-benchmark-S/S1305",
+      "sequence_stride": 1.0,
+      "already_subsampled": false
+    },
+    {
+      "dataset": "visdrone_det",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Object Detection in Images/VisDrone2019-DET-train/images",
+      "filename_prefix": "0000134_",
+      "num_frames": 4,
+      "fps": 30.0,
+      "sequence": "VisDrone2019-DET-train_0000134",
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 8
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/car_109/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/car_109/ir",
+      "num_frames": 1316,
+      "fps": 30.0,
+      "sequence": "car_109"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/squatting_1/img",
+      "num_frames": 555,
+      "fps": 30.0,
+      "sequence": "squatting_1"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/walking_281/img",
+      "num_frames": 443,
+      "fps": 30.0,
+      "sequence": "walking_281"
+    },
+    {
+      "dataset": "visdrone_cc",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Crowd Counting/sequences/00099",
+      "num_frames": 30,
+      "fps": 30.0,
+      "sequence": "00099"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/minibus_11/img",
+      "num_frames": 468,
+      "fps": 30.0,
+      "sequence": "minibus_11"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/running_10/img",
+      "num_frames": 292,
+      "fps": 30.0,
+      "sequence": "running_10"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/carrying_29/img",
+      "num_frames": 1223,
+      "fps": 30.0,
+      "sequence": "carrying_29"
+    },
+    {
+      "dataset": "vt_tiny_mot",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/VT-Tiny-MOT/train2017/DJI_0157_2/00",
+      "ir_dir": "/root/autodl-tmp/data/VT-Tiny-MOT/train2017/DJI_0157_2/01",
+      "num_frames": 470,
+      "fps": 25.0,
+      "sequence": "DJI_0157_2"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/golf_cart_26/img",
+      "num_frames": 254,
+      "fps": 30.0,
+      "sequence": "golf_cart_26"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/skyscraper_75/img",
+      "num_frames": 532,
+      "fps": 30.0,
+      "sequence": "skyscraper_75"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/sedan_23/img",
+      "num_frames": 516,
+      "fps": 30.0,
+      "sequence": "sedan_23"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0036_300",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0036/300",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/suv_116/img",
+      "num_frames": 563,
+      "fps": 30.0,
+      "sequence": "suv_116"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/walking_158/img",
+      "num_frames": 826,
+      "fps": 30.0,
+      "sequence": "walking_158"
+    },
+    {
+      "dataset": "visdrone_det",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Object Detection in Images/VisDrone2019-DET-train/images",
+      "filename_prefix": "9999966_",
+      "num_frames": 140,
+      "fps": 30.0,
+      "sequence": "VisDrone2019-DET-train_9999966",
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 8
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/minivan_26/img",
+      "num_frames": 87,
+      "fps": 30.0,
+      "sequence": "minivan_26"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/harvester_38/img",
+      "num_frames": 718,
+      "fps": 30.0,
+      "sequence": "harvester_38"
+    },
+    {
+      "dataset": "tardal",
+      "modality": "rgbir_paired",
+      "num_frames": 42,
+      "fps": 25.0,
+      "sequence": "roadscene",
+      "rgb_dir": "/root/autodl-tmp/data/TarDAL/roadscene/vi",
+      "ir_dir": "/root/autodl-tmp/data/TarDAL/roadscene/ir",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/walking_66/img",
+      "num_frames": 123,
+      "fps": 30.0,
+      "sequence": "walking_66"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/walking_3/img",
+      "num_frames": 406,
+      "fps": 30.0,
+      "sequence": "walking_3"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/swimming_5/img",
+      "num_frames": 326,
+      "fps": 30.0,
+      "sequence": "swimming_5"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/tractor_with_plough_5/img",
+      "num_frames": 320,
+      "fps": 30.0,
+      "sequence": "tractor_with_plough_5"
+    },
+    {
+      "dataset": "visdrone_det",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Object Detection in Images/VisDrone2019-DET-train/images",
+      "filename_prefix": "0000142_",
+      "num_frames": 20,
+      "fps": 30.0,
+      "sequence": "VisDrone2019-DET-train_0000142",
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 8
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/wooden_boat_6/img",
+      "num_frames": 297,
+      "fps": 30.0,
+      "sequence": "wooden_boat_6"
+    },
+    {
+      "dataset": "visdrone_mot",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Multi-Object Tracking/VisDrone2019-MOT-train/sequences/uav0000124_00944_v",
+      "num_frames": 398,
+      "fps": 30.0,
+      "sequence": "uav0000124_00944_v"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/water_scooter_13/img",
+      "num_frames": 136,
+      "fps": 30.0,
+      "sequence": "water_scooter_13"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/walking_24/img",
+      "num_frames": 224,
+      "fps": 30.0,
+      "sequence": "walking_24"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/sedan_232/img",
+      "num_frames": 118,
+      "fps": 30.0,
+      "sequence": "sedan_232"
+    },
+    {
+      "dataset": "visdrone_sot",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Single-Object Tracking/VisDrone2019-SOT-train_part2/VisDrone2019-SOT-train/sequences/uav0000200_00000_s",
+      "num_frames": 571,
+      "fps": 30.0,
+      "sequence": "uav0000200_00000_s"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/biking_157/img",
+      "num_frames": 153,
+      "fps": 30.0,
+      "sequence": "biking_157"
+    },
+    {
+      "dataset": "visdrone_sot",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Single-Object Tracking/VisDrone2019-SOT-train_part2/VisDrone2019-SOT-train/sequences/uav0000238_00001_s",
+      "num_frames": 1200,
+      "fps": 30.0,
+      "sequence": "uav0000238_00001_s"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0010_250",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0010/250",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/walking_369/img",
+      "num_frames": 874,
+      "fps": 30.0,
+      "sequence": "walking_369"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Val/rapid_transit_26/img",
+      "num_frames": 646,
+      "fps": 30.0,
+      "sequence": "rapid_transit_26"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0140_300",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0140/300",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/coach_9/img",
+      "num_frames": 192,
+      "fps": 30.0,
+      "sequence": "coach_9"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/sedan_103/img",
+      "num_frames": 207,
+      "fps": 30.0,
+      "sequence": "sedan_103"
+    },
+    {
+      "dataset": "uavdt",
+      "modality": "rgb_only",
+      "num_frames": 353,
+      "fps": 30.0,
+      "sequence": "UAV-benchmark-S_S1001",
+      "frame_dir": "/root/autodl-tmp/data/UAVDT/UAV-benchmark-S/S1001",
+      "sequence_stride": 1.0,
+      "already_subsampled": false
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0194_250",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0194/250",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/harvester_27/img",
+      "num_frames": 3190,
+      "fps": 30.0,
+      "sequence": "harvester_27"
+    },
+    {
+      "dataset": "uavdt",
+      "modality": "rgb_only",
+      "num_frames": 292,
+      "fps": 30.0,
+      "sequence": "UAV-benchmark-S_S0602",
+      "frame_dir": "/root/autodl-tmp/data/UAVDT/UAV-benchmark-S/S0602",
+      "sequence_stride": 1.0,
+      "already_subsampled": false
+    },
+    {
+      "dataset": "uavscenes",
+      "modality": "rgb_only",
+      "num_frames": 1415,
+      "fps": 2.0,
+      "sequence": "interval5_HKairport_GNSS_Evening",
+      "frame_dir": "/root/autodl-tmp/data/UAVScenes/interval=5/interval5_CAM_LIDAR/interval5_HKairport_GNSS_Evening/interval5_CAM",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 8
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/van_2/img",
+      "num_frames": 181,
+      "fps": 30.0,
+      "sequence": "van_2"
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/elebike_014/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/elebike_014/ir",
+      "num_frames": 1867,
+      "fps": 30.0,
+      "sequence": "elebike_014"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0090_150",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0090/150",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/sedan_135/img",
+      "num_frames": 166,
+      "fps": 30.0,
+      "sequence": "sedan_135"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0042_200",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0042/200",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "visdrone_det",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Object Detection in Images/VisDrone2019-DET-train/images",
+      "filename_prefix": "9999981_",
+      "num_frames": 157,
+      "fps": 30.0,
+      "sequence": "VisDrone2019-DET-train_9999981",
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 8
+    },
+    {
+      "dataset": "visdrone_det",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Object Detection in Images/VisDrone2019-DET-test-dev/images",
+      "filename_prefix": "0000120_",
+      "num_frames": 10,
+      "fps": 30.0,
+      "sequence": "VisDrone2019-DET-test-dev_0000120",
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 8
+    },
+    {
+      "dataset": "visdrone_cc",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Crowd Counting/sequences/00071",
+      "num_frames": 30,
+      "fps": 30.0,
+      "sequence": "00071"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/walking_390/img",
+      "num_frames": 708,
+      "fps": 30.0,
+      "sequence": "walking_390"
+    },
+    {
+      "dataset": "dtb70",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/DTB70/Surfing06/img",
+      "num_frames": 106,
+      "fps": 30.0,
+      "sequence": "Surfing06"
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/car_009/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/car_009/ir",
+      "num_frames": 8553,
+      "fps": 30.0,
+      "sequence": "car_009"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0175_200",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0175/200",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/trimaran_17/img",
+      "num_frames": 459,
+      "fps": 30.0,
+      "sequence": "trimaran_17"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0022_250",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0022/250",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "visdrone_det",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Object Detection in Images/VisDrone2019-DET-train/images",
+      "filename_prefix": "0000031_",
+      "num_frames": 3,
+      "fps": 30.0,
+      "sequence": "VisDrone2019-DET-train_0000031",
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 8
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/walking_353/img",
+      "num_frames": 282,
+      "fps": 30.0,
+      "sequence": "walking_353"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0161_200",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0161/200",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/freight_train_5/img",
+      "num_frames": 189,
+      "fps": 30.0,
+      "sequence": "freight_train_5"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/sloop_3/img",
+      "num_frames": 354,
+      "fps": 30.0,
+      "sequence": "sloop_3"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/biking_171/img",
+      "num_frames": 279,
+      "fps": 30.0,
+      "sequence": "biking_171"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/skyscraper_55/img",
+      "num_frames": 443,
+      "fps": 30.0,
+      "sequence": "skyscraper_55"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/walking_255/img",
+      "num_frames": 660,
+      "fps": 30.0,
+      "sequence": "walking_255"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/harvester_15/img",
+      "num_frames": 545,
+      "fps": 30.0,
+      "sequence": "harvester_15"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/police_van_2/img",
+      "num_frames": 113,
+      "fps": 30.0,
+      "sequence": "police_van_2"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/container_truck_10/img",
+      "num_frames": 354,
+      "fps": 30.0,
+      "sequence": "container_truck_10"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0113_150",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0113/150",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/playing_tennis_5/img",
+      "num_frames": 543,
+      "fps": 30.0,
+      "sequence": "playing_tennis_5"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/dropside_truck_12/img",
+      "num_frames": 104,
+      "fps": 30.0,
+      "sequence": "dropside_truck_12"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/minibus_4/img",
+      "num_frames": 67,
+      "fps": 30.0,
+      "sequence": "minibus_4"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/office_building_40/img",
+      "num_frames": 443,
+      "fps": 30.0,
+      "sequence": "office_building_40"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/oars_1/img",
+      "num_frames": 118,
+      "fps": 30.0,
+      "sequence": "oars_1"
+    },
+    {
+      "dataset": "uavdt",
+      "modality": "rgb_only",
+      "num_frames": 596,
+      "fps": 30.0,
+      "sequence": "UAV-benchmark-S_S0701",
+      "frame_dir": "/root/autodl-tmp/data/UAVDT/UAV-benchmark-S/S0701",
+      "sequence_stride": 1.0,
+      "already_subsampled": false
+    },
+    {
+      "dataset": "visdrone_cc",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Crowd Counting/sequences/00092",
+      "num_frames": 30,
+      "fps": 30.0,
+      "sequence": "00092"
+    },
+    {
+      "dataset": "visdrone_det",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Object Detection in Images/VisDrone2019-DET-train/images",
+      "filename_prefix": "0000308_",
+      "num_frames": 11,
+      "fps": 30.0,
+      "sequence": "VisDrone2019-DET-train_0000308",
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 8
+    },
+    {
+      "dataset": "vt_tiny_mot",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/VT-Tiny-MOT/train2017/DJI_0067_2/00",
+      "ir_dir": "/root/autodl-tmp/data/VT-Tiny-MOT/train2017/DJI_0067_2/01",
+      "num_frames": 500,
+      "fps": 25.0,
+      "sequence": "DJI_0067_2"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/whale_4/img",
+      "num_frames": 1106,
+      "fps": 30.0,
+      "sequence": "whale_4"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/walking_137/img",
+      "num_frames": 99,
+      "fps": 30.0,
+      "sequence": "walking_137"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Val/skyscraper_61/img",
+      "num_frames": 900,
+      "fps": 30.0,
+      "sequence": "skyscraper_61"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0147_300",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0147/300",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/minivan_90/img",
+      "num_frames": 181,
+      "fps": 30.0,
+      "sequence": "minivan_90"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/pagoda_79/img",
+      "num_frames": 473,
+      "fps": 30.0,
+      "sequence": "pagoda_79"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/sedan_184/img",
+      "num_frames": 62,
+      "fps": 30.0,
+      "sequence": "sedan_184"
+    },
+    {
+      "dataset": "dtb70",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/DTB70/BMX2/img",
+      "num_frames": 160,
+      "fps": 30.0,
+      "sequence": "BMX2"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/gazebo_1/img",
+      "num_frames": 510,
+      "fps": 30.0,
+      "sequence": "gazebo_1"
+    },
+    {
+      "dataset": "visdrone_det",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Object Detection in Images/VisDrone2019-DET-test-challenge/images",
+      "filename_prefix": "9999961_",
+      "num_frames": 20,
+      "fps": 30.0,
+      "sequence": "VisDrone2019-DET-test-challenge_9999961",
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 8
+    },
+    {
+      "dataset": "aeroscapes",
+      "modality": "rgb_only",
+      "num_frames": 16,
+      "fps": 30.0,
+      "sequence": "213004",
+      "frame_dir": "/root/autodl-tmp/data/AeroScapes/JPEGImages",
+      "filename_prefix": "213004_",
+      "sequence_stride": 1.0,
+      "already_subsampled": false
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0093_300",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0093/300",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/pushing_a_cart_21/img",
+      "num_frames": 541,
+      "fps": 30.0,
+      "sequence": "pushing_a_cart_21"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0144_150",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0144/150",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/pedestrian_118/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/pedestrian_118/ir",
+      "num_frames": 359,
+      "fps": 30.0,
+      "sequence": "pedestrian_118"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/suv_141/img",
+      "num_frames": 244,
+      "fps": 30.0,
+      "sequence": "suv_141"
+    },
+    {
+      "dataset": "visdrone_sot",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Single-Object Tracking/VisDrone2019-SOT-train_part1/VisDrone2019-SOT-train/sequences/uav0000099_02520_s",
+      "num_frames": 1041,
+      "fps": 30.0,
+      "sequence": "uav0000099_02520_s"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/walking_37/img",
+      "num_frames": 310,
+      "fps": 30.0,
+      "sequence": "walking_37"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/suv_38/img",
+      "num_frames": 258,
+      "fps": 30.0,
+      "sequence": "suv_38"
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/pedestrian_105/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/pedestrian_105/ir",
+      "num_frames": 1257,
+      "fps": 30.0,
+      "sequence": "pedestrian_105"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/single-decker_bus_99/img",
+      "num_frames": 391,
+      "fps": 30.0,
+      "sequence": "single-decker_bus_99"
+    },
+    {
+      "dataset": "aeroscapes",
+      "modality": "rgb_only",
+      "num_frames": 5,
+      "fps": 30.0,
+      "sequence": "116002",
+      "frame_dir": "/root/autodl-tmp/data/AeroScapes/JPEGImages",
+      "filename_prefix": "116002_",
+      "sequence_stride": 8.0,
+      "already_subsampled": true
+    },
+    {
+      "dataset": "visdrone_det",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Object Detection in Images/VisDrone2019-DET-train/images",
+      "filename_prefix": "0000137_",
+      "num_frames": 6,
+      "fps": 30.0,
+      "sequence": "VisDrone2019-DET-train_0000137",
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 8
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/single-decker_bus_54/img",
+      "num_frames": 775,
+      "fps": 30.0,
+      "sequence": "single-decker_bus_54"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0043_150",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0043/150",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0173_150",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0173/150",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/golf_cart_6/img",
+      "num_frames": 2721,
+      "fps": 30.0,
+      "sequence": "golf_cart_6"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/walking_62/img",
+      "num_frames": 148,
+      "fps": 30.0,
+      "sequence": "walking_62"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/walking_396/img",
+      "num_frames": 412,
+      "fps": 30.0,
+      "sequence": "walking_396"
+    },
+    {
+      "dataset": "visdrone_cc",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Crowd Counting/sequences/00064",
+      "num_frames": 30,
+      "fps": 30.0,
+      "sequence": "00064"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/pagoda_73/img",
+      "num_frames": 615,
+      "fps": 30.0,
+      "sequence": "pagoda_73"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/battlements_1/img",
+      "num_frames": 620,
+      "fps": 30.0,
+      "sequence": "battlements_1"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/office_building_37/img",
+      "num_frames": 443,
+      "fps": 30.0,
+      "sequence": "office_building_37"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Val/sedan_20/img",
+      "num_frames": 196,
+      "fps": 30.0,
+      "sequence": "sedan_20"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/freight_train_7/img",
+      "num_frames": 315,
+      "fps": 30.0,
+      "sequence": "freight_train_7"
+    },
+    {
+      "dataset": "aeroscapes",
+      "modality": "rgb_only",
+      "num_frames": 7,
+      "fps": 30.0,
+      "sequence": "315002",
+      "frame_dir": "/root/autodl-tmp/data/AeroScapes/JPEGImages",
+      "filename_prefix": "315002_",
+      "sequence_stride": 4.0,
+      "already_subsampled": true
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0130_150",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0130/150",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/suv_7/img",
+      "num_frames": 282,
+      "fps": 30.0,
+      "sequence": "suv_7"
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/train_004/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/train_004/ir",
+      "num_frames": 4014,
+      "fps": 30.0,
+      "sequence": "train_004"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/box_truck_20/img",
+      "num_frames": 185,
+      "fps": 30.0,
+      "sequence": "box_truck_20"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/concrete_mixer_truck_1/img",
+      "num_frames": 44,
+      "fps": 30.0,
+      "sequence": "concrete_mixer_truck_1"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Val/tractor_26/img",
+      "num_frames": 399,
+      "fps": 30.0,
+      "sequence": "tractor_26"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0157_150",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0157/150",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/kite_2/img",
+      "num_frames": 217,
+      "fps": 30.0,
+      "sequence": "kite_2"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/bulk_carrier_41/img",
+      "num_frames": 192,
+      "fps": 30.0,
+      "sequence": "bulk_carrier_41"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/pagoda_44/img",
+      "num_frames": 1693,
+      "fps": 30.0,
+      "sequence": "pagoda_44"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/beacon_26/img",
+      "num_frames": 1611,
+      "fps": 30.0,
+      "sequence": "beacon_26"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/standing_28/img",
+      "num_frames": 709,
+      "fps": 30.0,
+      "sequence": "standing_28"
+    },
+    {
+      "dataset": "visdrone_det",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Object Detection in Images/VisDrone2019-DET-train/images",
+      "filename_prefix": "0000133_",
+      "num_frames": 4,
+      "fps": 30.0,
+      "sequence": "VisDrone2019-DET-train_0000133",
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 8
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/car_022/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/car_022/ir",
+      "num_frames": 11625,
+      "fps": 30.0,
+      "sequence": "car_022"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/walking_196/img",
+      "num_frames": 261,
+      "fps": 30.0,
+      "sequence": "walking_196"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/helicopter_1/img",
+      "num_frames": 190,
+      "fps": 30.0,
+      "sequence": "helicopter_1"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/jeep_5/img",
+      "num_frames": 272,
+      "fps": 30.0,
+      "sequence": "jeep_5"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/ferry_28/img",
+      "num_frames": 131,
+      "fps": 30.0,
+      "sequence": "ferry_28"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Val/walking_109/img",
+      "num_frames": 288,
+      "fps": 30.0,
+      "sequence": "walking_109"
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/car_110/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/car_110/ir",
+      "num_frames": 1276,
+      "fps": 30.0,
+      "sequence": "car_110"
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/pedestrian_028/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/pedestrian_028/ir",
+      "num_frames": 8760,
+      "fps": 30.0,
+      "sequence": "pedestrian_028"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/motorboat_30/img",
+      "num_frames": 1269,
+      "fps": 30.0,
+      "sequence": "motorboat_30"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0165_200",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0165/200",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/pedestrian_050/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/pedestrian_050/ir",
+      "num_frames": 3949,
+      "fps": 30.0,
+      "sequence": "pedestrian_050"
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/tricycle_004/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/tricycle_004/ir",
+      "num_frames": 9105,
+      "fps": 30.0,
+      "sequence": "tricycle_004"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/suv_72/img",
+      "num_frames": 396,
+      "fps": 30.0,
+      "sequence": "suv_72"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/tree_3/img",
+      "num_frames": 111,
+      "fps": 30.0,
+      "sequence": "tree_3"
+    },
+    {
+      "dataset": "visdrone_det",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Object Detection in Images/VisDrone2019-DET-train/images",
+      "filename_prefix": "0000045_",
+      "num_frames": 4,
+      "fps": 30.0,
+      "sequence": "VisDrone2019-DET-train_0000045",
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 8
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/sedan_263/img",
+      "num_frames": 596,
+      "fps": 30.0,
+      "sequence": "sedan_263"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/fountain_4/img",
+      "num_frames": 339,
+      "fps": 30.0,
+      "sequence": "fountain_4"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0199_200",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0199/200",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/pedestrian_231/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/pedestrian_231/ir",
+      "num_frames": 1628,
+      "fps": 30.0,
+      "sequence": "pedestrian_231"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/container_truck_21/img",
+      "num_frames": 428,
+      "fps": 30.0,
+      "sequence": "container_truck_21"
+    },
+    {
+      "dataset": "visdrone_cc",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Crowd Counting/sequences/00093",
+      "num_frames": 30,
+      "fps": 30.0,
+      "sequence": "00093"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/water_scooter_20/img",
+      "num_frames": 68,
+      "fps": 30.0,
+      "sequence": "water_scooter_20"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/standing_74/img",
+      "num_frames": 508,
+      "fps": 30.0,
+      "sequence": "standing_74"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/single-decker_bus_110/img",
+      "num_frames": 603,
+      "fps": 30.0,
+      "sequence": "single-decker_bus_110"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0172_150",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0172/150",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Val/rapid_transit_20/img",
+      "num_frames": 481,
+      "fps": 30.0,
+      "sequence": "rapid_transit_20"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/trimaran_44/img",
+      "num_frames": 255,
+      "fps": 30.0,
+      "sequence": "trimaran_44"
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/pedestrian_067/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/pedestrian_067/ir",
+      "num_frames": 1425,
+      "fps": 30.0,
+      "sequence": "pedestrian_067"
+    },
+    {
+      "dataset": "visdrone_sot",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Single-Object Tracking/VisDrone2019-SOT-test-dev/VisDrone2018-SOT-test-dev/sequences/uav0000208_00000_s",
+      "num_frames": 1169,
+      "fps": 30.0,
+      "sequence": "uav0000208_00000_s"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/horse_head_1/img",
+      "num_frames": 123,
+      "fps": 30.0,
+      "sequence": "horse_head_1"
+    },
+    {
+      "dataset": "rgbt_tiny",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/RGBT-Tiny/images/DJI_0221_2/00",
+      "ir_dir": "/root/autodl-tmp/data/RGBT-Tiny/images/DJI_0221_2/01",
+      "num_frames": 590,
+      "fps": 25.0,
+      "sequence": "DJI_0221_2"
+    },
+    {
+      "dataset": "visdrone_mot",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Multi-Object Tracking/VisDrone2019-MOT-train/sequences/uav0000329_04715_v",
+      "num_frames": 196,
+      "fps": 30.0,
+      "sequence": "uav0000329_04715_v"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/sightseeing_cruise_22/img",
+      "num_frames": 1116,
+      "fps": 30.0,
+      "sequence": "sightseeing_cruise_22"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/paraglider_1/img",
+      "num_frames": 359,
+      "fps": 30.0,
+      "sequence": "paraglider_1"
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/cable_002/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/cable_002/ir",
+      "num_frames": 4222,
+      "fps": 30.0,
+      "sequence": "cable_002"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/timber_carrier_1/img",
+      "num_frames": 1430,
+      "fps": 30.0,
+      "sequence": "timber_carrier_1"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/minivan_92/img",
+      "num_frames": 309,
+      "fps": 30.0,
+      "sequence": "minivan_92"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/coach_12/img",
+      "num_frames": 94,
+      "fps": 30.0,
+      "sequence": "coach_12"
+    },
+    {
+      "dataset": "visdrone_det",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Object Detection in Images/VisDrone2019-DET-train/images",
+      "filename_prefix": "0000144_",
+      "num_frames": 12,
+      "fps": 30.0,
+      "sequence": "VisDrone2019-DET-train_0000144",
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 8
+    },
+    {
+      "dataset": "visdrone_det",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Object Detection in Images/VisDrone2019-DET-test-challenge/images",
+      "filename_prefix": "0000362_",
+      "num_frames": 10,
+      "fps": 30.0,
+      "sequence": "VisDrone2019-DET-test-challenge_0000362",
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 8
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0006_200",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0006/200",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "aeroscapes",
+      "modality": "rgb_only",
+      "num_frames": 9,
+      "fps": 30.0,
+      "sequence": "310008",
+      "frame_dir": "/root/autodl-tmp/data/AeroScapes/JPEGImages",
+      "filename_prefix": "310008_",
+      "sequence_stride": 4.0,
+      "already_subsampled": true
+    },
+    {
+      "dataset": "visdrone_det",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Object Detection in Images/VisDrone2019-DET-train/images",
+      "filename_prefix": "9999969_",
+      "num_frames": 70,
+      "fps": 30.0,
+      "sequence": "VisDrone2019-DET-train_9999969",
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 8
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/climbing_stairs_1/img",
+      "num_frames": 591,
+      "fps": 30.0,
+      "sequence": "climbing_stairs_1"
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/pedestrian_211/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/pedestrian_211/ir",
+      "num_frames": 1849,
+      "fps": 30.0,
+      "sequence": "pedestrian_211"
+    },
+    {
+      "dataset": "rgbt_tiny",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/RGBT-Tiny/images/DJI_0051_2/00",
+      "ir_dir": "/root/autodl-tmp/data/RGBT-Tiny/images/DJI_0051_2/01",
+      "num_frames": 580,
+      "fps": 25.0,
+      "sequence": "DJI_0051_2"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0154_250",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0154/250",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "visdrone_sot",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Single-Object Tracking/VisDrone2019-SOT-test-challenge_part1/VisDrone2019-SOT-test-challenge/sequences/uav0000368_00001_s",
+      "num_frames": 92,
+      "fps": 30.0,
+      "sequence": "uav0000368_00001_s"
+    },
+    {
+      "dataset": "uavdt",
+      "modality": "rgb_only",
+      "num_frames": 1197,
+      "fps": 30.0,
+      "sequence": "UAV-benchmark-M_M1201",
+      "frame_dir": "/root/autodl-tmp/data/UAVDT/UAV-benchmark-M/M1201",
+      "sequence_stride": 1.0,
+      "already_subsampled": false
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/sedan_190/img",
+      "num_frames": 328,
+      "fps": 30.0,
+      "sequence": "sedan_190"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/rapid_transit_17/img",
+      "num_frames": 272,
+      "fps": 30.0,
+      "sequence": "rapid_transit_17"
+    },
+    {
+      "dataset": "uav123",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/UAV123/data_seq/uav7",
+      "num_frames": 373,
+      "fps": 30.0,
+      "sequence": "uav7"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/box_truck_63/img",
+      "num_frames": 308,
+      "fps": 30.0,
+      "sequence": "box_truck_63"
+    },
+    {
+      "dataset": "uavdt",
+      "modality": "rgb_only",
+      "num_frames": 414,
+      "fps": 30.0,
+      "sequence": "UAV-benchmark-S_S0307",
+      "frame_dir": "/root/autodl-tmp/data/UAVDT/UAV-benchmark-S/S0307",
+      "sequence_stride": 1.0,
+      "already_subsampled": false
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/barge_carrier_3/img",
+      "num_frames": 258,
+      "fps": 30.0,
+      "sequence": "barge_carrier_3"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/wind_turbine_blade_39/img",
+      "num_frames": 202,
+      "fps": 30.0,
+      "sequence": "wind_turbine_blade_39"
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/car_075/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/car_075/ir",
+      "num_frames": 1075,
+      "fps": 30.0,
+      "sequence": "car_075"
+    },
+    {
+      "dataset": "aeroscapes",
+      "modality": "rgb_only",
+      "num_frames": 65,
+      "fps": 30.0,
+      "sequence": "200003",
+      "frame_dir": "/root/autodl-tmp/data/AeroScapes/JPEGImages",
+      "filename_prefix": "200003_",
+      "sequence_stride": 1.0,
+      "already_subsampled": false
+    },
+    {
+      "dataset": "rgbt_tiny",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/RGBT-Tiny/images/DJI_0181_3/00",
+      "ir_dir": "/root/autodl-tmp/data/RGBT-Tiny/images/DJI_0181_3/01",
+      "num_frames": 320,
+      "fps": 25.0,
+      "sequence": "DJI_0181_3"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/hot-air_balloon_55/img",
+      "num_frames": 117,
+      "fps": 30.0,
+      "sequence": "hot-air_balloon_55"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/walking_70/img",
+      "num_frames": 123,
+      "fps": 30.0,
+      "sequence": "walking_70"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/walking_392/img",
+      "num_frames": 365,
+      "fps": 30.0,
+      "sequence": "walking_392"
+    },
+    {
+      "dataset": "visdrone_det",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Object Detection in Images/VisDrone2019-DET-test-challenge/images",
+      "filename_prefix": "0000185_",
+      "num_frames": 4,
+      "fps": 30.0,
+      "sequence": "VisDrone2019-DET-test-challenge_0000185",
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 8
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/donkey_1/img",
+      "num_frames": 214,
+      "fps": 30.0,
+      "sequence": "donkey_1"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/hatchback_64/img",
+      "num_frames": 972,
+      "fps": 30.0,
+      "sequence": "hatchback_64"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/skyscraper_42/img",
+      "num_frames": 454,
+      "fps": 30.0,
+      "sequence": "skyscraper_42"
+    },
+    {
+      "dataset": "uavid",
+      "modality": "rgb_only",
+      "num_frames": 10,
+      "fps": 30.0,
+      "sequence": "train_seq32",
+      "frame_dir": "/root/autodl-tmp/data/UAVid/train/seq32/Images",
+      "sequence_stride": 100.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 8
+    },
+    {
+      "dataset": "dtb70",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/DTB70/SnowBoarding4/img",
+      "num_frames": 109,
+      "fps": 30.0,
+      "sequence": "SnowBoarding4"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/filming_1/img",
+      "num_frames": 446,
+      "fps": 30.0,
+      "sequence": "filming_1"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/skyscraper_50/img",
+      "num_frames": 359,
+      "fps": 30.0,
+      "sequence": "skyscraper_50"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0135_200",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0135/200",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/motorboat_17/img",
+      "num_frames": 474,
+      "fps": 30.0,
+      "sequence": "motorboat_17"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/walking_108/img",
+      "num_frames": 117,
+      "fps": 30.0,
+      "sequence": "walking_108"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/sitting_11/img",
+      "num_frames": 246,
+      "fps": 30.0,
+      "sequence": "sitting_11"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/skyscraper_69/img",
+      "num_frames": 354,
+      "fps": 30.0,
+      "sequence": "skyscraper_69"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/carrying_12/img",
+      "num_frames": 540,
+      "fps": 30.0,
+      "sequence": "carrying_12"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0066_150",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0066/150",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0093_250",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0093/250",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/pagoda_2/img",
+      "num_frames": 74,
+      "fps": 30.0,
+      "sequence": "pagoda_2"
+    },
+    {
+      "dataset": "visdrone_sot",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Single-Object Tracking/VisDrone2019-SOT-test-dev/VisDrone2018-SOT-test-dev/sequences/uav0000093_00000_s",
+      "num_frames": 1611,
+      "fps": 30.0,
+      "sequence": "uav0000093_00000_s"
+    },
+    {
+      "dataset": "animaldrone",
+      "modality": "rgb_only",
+      "num_frames": 295,
+      "fps": 30.0,
+      "sequence": "AnimalDrone_PartB_jpg_003_cut07",
+      "frame_dir": "/root/autodl-tmp/data/AnimalDrone/AnimalDrone_PartB/jpg/003/cut07",
+      "sequence_stride": 1.0,
+      "already_subsampled": false
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/walking_202/img",
+      "num_frames": 836,
+      "fps": 30.0,
+      "sequence": "walking_202"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/yacht_8/img",
+      "num_frames": 761,
+      "fps": 30.0,
+      "sequence": "yacht_8"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/talking_4/img",
+      "num_frames": 775,
+      "fps": 30.0,
+      "sequence": "talking_4"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0168_150",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0168/150",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/hatchback_73/img",
+      "num_frames": 295,
+      "fps": 30.0,
+      "sequence": "hatchback_73"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0088_300",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0088/300",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "aeroscapes",
+      "modality": "rgb_only",
+      "num_frames": 5,
+      "fps": 30.0,
+      "sequence": "315005",
+      "frame_dir": "/root/autodl-tmp/data/AeroScapes/JPEGImages",
+      "filename_prefix": "315005_",
+      "sequence_stride": 8.0,
+      "already_subsampled": true
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/bulk_carrier_50/img",
+      "num_frames": 170,
+      "fps": 30.0,
+      "sequence": "bulk_carrier_50"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/single-decker_bus_68/img",
+      "num_frames": 271,
+      "fps": 30.0,
+      "sequence": "single-decker_bus_68"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Val/skyscraper_63/img",
+      "num_frames": 845,
+      "fps": 30.0,
+      "sequence": "skyscraper_63"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/wind_turbine_blade_6/img",
+      "num_frames": 210,
+      "fps": 30.0,
+      "sequence": "wind_turbine_blade_6"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/hatchback_32/img",
+      "num_frames": 87,
+      "fps": 30.0,
+      "sequence": "hatchback_32"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/sheepdog_4/img",
+      "num_frames": 1069,
+      "fps": 30.0,
+      "sequence": "sheepdog_4"
+    },
+    {
+      "dataset": "visdrone_sot",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Single-Object Tracking/VisDrone2019-SOT-train_part1/VisDrone2019-SOT-train/sequences/uav0000089_00920_s",
+      "num_frames": 1381,
+      "fps": 30.0,
+      "sequence": "uav0000089_00920_s"
+    },
+    {
+      "dataset": "vt_tiny_mot",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/VT-Tiny-MOT/train2017/DJI_0022_1/00",
+      "ir_dir": "/root/autodl-tmp/data/VT-Tiny-MOT/train2017/DJI_0022_1/01",
+      "num_frames": 130,
+      "fps": 25.0,
+      "sequence": "DJI_0022_1"
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/car_133/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/car_133/ir",
+      "num_frames": 6213,
+      "fps": 30.0,
+      "sequence": "car_133"
+    },
+    {
+      "dataset": "dtb70",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/DTB70/SpeedCar4/img",
+      "num_frames": 164,
+      "fps": 30.0,
+      "sequence": "SpeedCar4"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/container_truck_11/img",
+      "num_frames": 221,
+      "fps": 30.0,
+      "sequence": "container_truck_11"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/keep_4/img",
+      "num_frames": 239,
+      "fps": 30.0,
+      "sequence": "keep_4"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/biking_55/img",
+      "num_frames": 547,
+      "fps": 30.0,
+      "sequence": "biking_55"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/sowing_2/img",
+      "num_frames": 3045,
+      "fps": 30.0,
+      "sequence": "sowing_2"
+    },
+    {
+      "dataset": "visdrone_sot",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Single-Object Tracking/VisDrone2019-SOT-test-challenge_part2/VisDrone2019-SOT-test-challenge/sequences/uav0000390_00001_s",
+      "num_frames": 3312,
+      "fps": 30.0,
+      "sequence": "uav0000390_00001_s"
+    },
+    {
+      "dataset": "aeroscapes",
+      "modality": "rgb_only",
+      "num_frames": 10,
+      "fps": 30.0,
+      "sequence": "310014",
+      "frame_dir": "/root/autodl-tmp/data/AeroScapes/JPEGImages",
+      "filename_prefix": "310014_",
+      "sequence_stride": 4.0,
+      "already_subsampled": true
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/walking_215/img",
+      "num_frames": 202,
+      "fps": 30.0,
+      "sequence": "walking_215"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/suv_198/img",
+      "num_frames": 894,
+      "fps": 30.0,
+      "sequence": "suv_198"
+    },
+    {
+      "dataset": "visdrone_det",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Object Detection in Images/VisDrone2019-DET-train/images",
+      "filename_prefix": "0000348_",
+      "num_frames": 22,
+      "fps": 30.0,
+      "sequence": "VisDrone2019-DET-train_0000348",
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 8
+    },
+    {
+      "dataset": "visdrone_mot",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Multi-Object Tracking/VisDrone2019-MOT-train/sequences/uav0000288_00001_v",
+      "num_frames": 1424,
+      "fps": 30.0,
+      "sequence": "uav0000288_00001_v"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/biking_125/img",
+      "num_frames": 253,
+      "fps": 30.0,
+      "sequence": "biking_125"
+    },
+    {
+      "dataset": "animaldrone",
+      "modality": "rgb_only",
+      "num_frames": 341,
+      "fps": 30.0,
+      "sequence": "AnimalDrone_PartB_jpg_003_cut05",
+      "frame_dir": "/root/autodl-tmp/data/AnimalDrone/AnimalDrone_PartB/jpg/003/cut05",
+      "sequence_stride": 1.0,
+      "already_subsampled": false
+    },
+    {
+      "dataset": "visdrone_mot",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Multi-Object Tracking/VisDrone2019-MOT-train/sequences/uav0000315_00000_v",
+      "num_frames": 632,
+      "fps": 30.0,
+      "sequence": "uav0000315_00000_v"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/mchod-rten_1/img",
+      "num_frames": 793,
+      "fps": 30.0,
+      "sequence": "mchod-rten_1"
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/pedestrian_008/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/pedestrian_008/ir",
+      "num_frames": 1918,
+      "fps": 30.0,
+      "sequence": "pedestrian_008"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/minivan_5/img",
+      "num_frames": 80,
+      "fps": 30.0,
+      "sequence": "minivan_5"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/trimaran_8/img",
+      "num_frames": 270,
+      "fps": 30.0,
+      "sequence": "trimaran_8"
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/car_091/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/car_091/ir",
+      "num_frames": 1646,
+      "fps": 30.0,
+      "sequence": "car_091"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Val/hatchback_82/img",
+      "num_frames": 323,
+      "fps": 30.0,
+      "sequence": "hatchback_82"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/ferry_12/img",
+      "num_frames": 192,
+      "fps": 30.0,
+      "sequence": "ferry_12"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/pagoda_4/img",
+      "num_frames": 124,
+      "fps": 30.0,
+      "sequence": "pagoda_4"
+    },
+    {
+      "dataset": "visdrone_det",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Object Detection in Images/VisDrone2019-DET-train/images",
+      "filename_prefix": "9999948_",
+      "num_frames": 41,
+      "fps": 30.0,
+      "sequence": "VisDrone2019-DET-train_9999948",
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 8
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/wind_turbine_blade_27/img",
+      "num_frames": 792,
+      "fps": 30.0,
+      "sequence": "wind_turbine_blade_27"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/sitting_21/img",
+      "num_frames": 553,
+      "fps": 30.0,
+      "sequence": "sitting_21"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/hatchback_58/img",
+      "num_frames": 123,
+      "fps": 30.0,
+      "sequence": "hatchback_58"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0109_150",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0109/150",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/minivan_14/img",
+      "num_frames": 307,
+      "fps": 30.0,
+      "sequence": "minivan_14"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/biking_77/img",
+      "num_frames": 274,
+      "fps": 30.0,
+      "sequence": "biking_77"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0032_300",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0032/300",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/motorboat_27/img",
+      "num_frames": 89,
+      "fps": 30.0,
+      "sequence": "motorboat_27"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/tibetan_antelope_1/img",
+      "num_frames": 306,
+      "fps": 30.0,
+      "sequence": "tibetan_antelope_1"
+    },
+    {
+      "dataset": "visdrone_cc",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Crowd Counting/sequences/00026",
+      "num_frames": 30,
+      "fps": 30.0,
+      "sequence": "00026"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/wildebeest_2/img",
+      "num_frames": 1080,
+      "fps": 30.0,
+      "sequence": "wildebeest_2"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/hot-air_balloon_39/img",
+      "num_frames": 186,
+      "fps": 30.0,
+      "sequence": "hot-air_balloon_39"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0011_200",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0011/200",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0117_250",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0117/250",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/reading_18/img",
+      "num_frames": 683,
+      "fps": 30.0,
+      "sequence": "reading_18"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/skiing_9/img",
+      "num_frames": 136,
+      "fps": 30.0,
+      "sequence": "skiing_9"
+    },
+    {
+      "dataset": "mdmt",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/MDMT/test/2/48-2",
+      "num_frames": 700,
+      "fps": 30.0,
+      "sequence": "2_48-2"
+    },
+    {
+      "dataset": "uavdt",
+      "modality": "rgb_only",
+      "num_frames": 2045,
+      "fps": 30.0,
+      "sequence": "UAV-benchmark-S_S1313",
+      "frame_dir": "/root/autodl-tmp/data/UAVDT/UAV-benchmark-S/S1313",
+      "sequence_stride": 1.0,
+      "already_subsampled": false
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/skateboarding_2/img",
+      "num_frames": 532,
+      "fps": 30.0,
+      "sequence": "skateboarding_2"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/ferris_wheel_2/img",
+      "num_frames": 634,
+      "fps": 30.0,
+      "sequence": "ferris_wheel_2"
+    },
+    {
+      "dataset": "dtb70",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/DTB70/Skiing2/img",
+      "num_frames": 178,
+      "fps": 30.0,
+      "sequence": "Skiing2"
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/pedestrian_180/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/pedestrian_180/ir",
+      "num_frames": 3694,
+      "fps": 30.0,
+      "sequence": "pedestrian_180"
+    },
+    {
+      "dataset": "aeroscapes",
+      "modality": "rgb_only",
+      "num_frames": 8,
+      "fps": 30.0,
+      "sequence": "310023",
+      "frame_dir": "/root/autodl-tmp/data/AeroScapes/JPEGImages",
+      "filename_prefix": "310023_",
+      "sequence_stride": 4.0,
+      "already_subsampled": true
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/sedan_137/img",
+      "num_frames": 118,
+      "fps": 30.0,
+      "sequence": "sedan_137"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/bulldozer_3/img",
+      "num_frames": 370,
+      "fps": 30.0,
+      "sequence": "bulldozer_3"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Val/trimaran_45/img",
+      "num_frames": 172,
+      "fps": 30.0,
+      "sequence": "trimaran_45"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/electric_tricycle_13/img",
+      "num_frames": 51,
+      "fps": 30.0,
+      "sequence": "electric_tricycle_13"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0090_300",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0090/300",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "visdrone_sot",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Single-Object Tracking/VisDrone2019-SOT-test-challenge_part1/VisDrone2019-SOT-test-challenge/sequences/uav0000075_00088_s",
+      "num_frames": 130,
+      "fps": 30.0,
+      "sequence": "uav0000075_00088_s"
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/pedestrian_229/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/pedestrian_229/ir",
+      "num_frames": 5667,
+      "fps": 30.0,
+      "sequence": "pedestrian_229"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Val/office_building_31/img",
+      "num_frames": 598,
+      "fps": 30.0,
+      "sequence": "office_building_31"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/pagoda_75/img",
+      "num_frames": 1324,
+      "fps": 30.0,
+      "sequence": "pagoda_75"
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0059_150",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0059/150",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0012_300",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0012/300",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "visdrone_det",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Object Detection in Images/VisDrone2019-DET-test-dev/images",
+      "filename_prefix": "9999941_",
+      "num_frames": 35,
+      "fps": 30.0,
+      "sequence": "VisDrone2019-DET-test-dev_9999941",
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 8
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0079_250",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0079/250",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/biking_14/img",
+      "num_frames": 480,
+      "fps": 30.0,
+      "sequence": "biking_14"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/yacht_21/img",
+      "num_frames": 656,
+      "fps": 30.0,
+      "sequence": "yacht_21"
+    },
+    {
+      "dataset": "animaldrone",
+      "modality": "rgb_only",
+      "num_frames": 467,
+      "fps": 30.0,
+      "sequence": "AnimalDrone_PartB_jpg4_020_cut13",
+      "frame_dir": "/root/autodl-tmp/data/AnimalDrone/AnimalDrone_PartB/jpg4/020/cut13",
+      "sequence_stride": 1.0,
+      "already_subsampled": false
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/hot-air_balloon_65/img",
+      "num_frames": 163,
+      "fps": 30.0,
+      "sequence": "hot-air_balloon_65"
+    },
+    {
+      "dataset": "animaldrone",
+      "modality": "rgb_only",
+      "num_frames": 482,
+      "fps": 30.0,
+      "sequence": "AnimalDrone_PartB_jpg4_022_cut2",
+      "frame_dir": "/root/autodl-tmp/data/AnimalDrone/AnimalDrone_PartB/jpg4/022/cut2",
+      "sequence_stride": 1.0,
+      "already_subsampled": false
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/skyscraper_48/img",
+      "num_frames": 443,
+      "fps": 30.0,
+      "sequence": "skyscraper_48"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/biking_186/img",
+      "num_frames": 215,
+      "fps": 30.0,
+      "sequence": "biking_186"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/carrying_15/img",
+      "num_frames": 384,
+      "fps": 30.0,
+      "sequence": "carrying_15"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/walking_124/img",
+      "num_frames": 510,
+      "fps": 30.0,
+      "sequence": "walking_124"
+    },
+    {
+      "dataset": "uavid",
+      "modality": "rgb_only",
+      "num_frames": 10,
+      "fps": 30.0,
+      "sequence": "test_seq38",
+      "frame_dir": "/root/autodl-tmp/data/UAVid/test/seq38/Images",
+      "sequence_stride": 100.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 8
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/sedan_40/img",
+      "num_frames": 151,
+      "fps": 30.0,
+      "sequence": "sedan_40"
+    },
+    {
+      "dataset": "uavid",
+      "modality": "rgb_only",
+      "num_frames": 10,
+      "fps": 30.0,
+      "sequence": "test_seq25",
+      "frame_dir": "/root/autodl-tmp/data/UAVid/test/seq25/Images",
+      "sequence_stride": 100.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 8
+    },
+    {
+      "dataset": "sues_200",
+      "modality": "rgb_only",
+      "num_frames": 50,
+      "fps": 30.0,
+      "sequence": "0034_250",
+      "frame_dir": "/root/autodl-tmp/data/SUES-200/drone_view_512/0034/250",
+      "sequence_stride": 5.0,
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 12
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/wind_turbine_blade_29/img",
+      "num_frames": 652,
+      "fps": 30.0,
+      "sequence": "wind_turbine_blade_29"
+    },
+    {
+      "dataset": "visdrone_cc",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Crowd Counting/sequences/00022",
+      "num_frames": 30,
+      "fps": 30.0,
+      "sequence": "00022"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/sitting_13/img",
+      "num_frames": 256,
+      "fps": 30.0,
+      "sequence": "sitting_13"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/barge_carrier_6/img",
+      "num_frames": 156,
+      "fps": 30.0,
+      "sequence": "barge_carrier_6"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/playing_basketball_20/img",
+      "num_frames": 300,
+      "fps": 30.0,
+      "sequence": "playing_basketball_20"
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/pedestrian_025/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/pedestrian_025/ir",
+      "num_frames": 9040,
+      "fps": 30.0,
+      "sequence": "pedestrian_025"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/biking_27/img",
+      "num_frames": 262,
+      "fps": 30.0,
+      "sequence": "biking_27"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/minivan_94/img",
+      "num_frames": 64,
+      "fps": 30.0,
+      "sequence": "minivan_94"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/great_wall_of_china_4/img",
+      "num_frames": 271,
+      "fps": 30.0,
+      "sequence": "great_wall_of_china_4"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/double-decker_bus_4/img",
+      "num_frames": 204,
+      "fps": 30.0,
+      "sequence": "double-decker_bus_4"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/hot-air_balloon_83/img",
+      "num_frames": 244,
+      "fps": 30.0,
+      "sequence": "hot-air_balloon_83"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/walking_95/img",
+      "num_frames": 123,
+      "fps": 30.0,
+      "sequence": "walking_95"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/wind_turbine_blade_18/img",
+      "num_frames": 618,
+      "fps": 30.0,
+      "sequence": "wind_turbine_blade_18"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/uav_2/img",
+      "num_frames": 492,
+      "fps": 30.0,
+      "sequence": "uav_2"
+    },
+    {
+      "dataset": "animaldrone",
+      "modality": "rgb_only",
+      "num_frames": 570,
+      "fps": 30.0,
+      "sequence": "AnimalDrone_PartB_jpg_011_cut1",
+      "frame_dir": "/root/autodl-tmp/data/AnimalDrone/AnimalDrone_PartB/jpg/011/cut1",
+      "sequence_stride": 1.0,
+      "already_subsampled": false
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/tractor_76/img",
+      "num_frames": 119,
+      "fps": 30.0,
+      "sequence": "tractor_76"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/coach_26/img",
+      "num_frames": 222,
+      "fps": 30.0,
+      "sequence": "coach_26"
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/car_120/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/car_120/ir",
+      "num_frames": 2402,
+      "fps": 30.0,
+      "sequence": "car_120"
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/pedestrian_037/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/pedestrian_037/ir",
+      "num_frames": 1909,
+      "fps": 30.0,
+      "sequence": "pedestrian_037"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/freight_train_1/img",
+      "num_frames": 266,
+      "fps": 30.0,
+      "sequence": "freight_train_1"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/suv_30/img",
+      "num_frames": 207,
+      "fps": 30.0,
+      "sequence": "suv_30"
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/car_021/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/car_021/ir",
+      "num_frames": 716,
+      "fps": 30.0,
+      "sequence": "car_021"
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/pedestrian_096/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/pedestrian_096/ir",
+      "num_frames": 888,
+      "fps": 30.0,
+      "sequence": "pedestrian_096"
+    },
+    {
+      "dataset": "visdrone_det",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/VisDrone/Object Detection in Images/VisDrone2019-DET-test-challenge/images",
+      "filename_prefix": "9999957_",
+      "num_frames": 18,
+      "fps": 30.0,
+      "sequence": "VisDrone2019-DET-test-challenge_9999957",
+      "already_subsampled": true,
+      "sample_min_delta": 1,
+      "sample_max_delta": 8
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/walking_105/img",
+      "num_frames": 89,
+      "fps": 30.0,
+      "sequence": "walking_105"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Test/sedan_283/img",
+      "num_frames": 165,
+      "fps": 30.0,
+      "sequence": "sedan_283"
+    },
+    {
+      "dataset": "vt_tiny_mot",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/VT-Tiny-MOT/train2017/DJI_0137_3/00",
+      "ir_dir": "/root/autodl-tmp/data/VT-Tiny-MOT/train2017/DJI_0137_3/01",
+      "num_frames": 290,
+      "fps": 25.0,
+      "sequence": "DJI_0137_3"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/biking_87/img",
+      "num_frames": 290,
+      "fps": 30.0,
+      "sequence": "biking_87"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/walking_424/img",
+      "num_frames": 508,
+      "fps": 30.0,
+      "sequence": "walking_424"
+    },
+    {
+      "dataset": "utuav",
+      "modality": "rgbir_paired",
+      "rgb_dir": "/root/autodl-tmp/data/UTUAV/pedestrian_184/rgb",
+      "ir_dir": "/root/autodl-tmp/data/UTUAV/pedestrian_184/ir",
+      "num_frames": 16079,
+      "fps": 30.0,
+      "sequence": "pedestrian_184"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/donkey_4/img",
+      "num_frames": 163,
+      "fps": 30.0,
+      "sequence": "donkey_4"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/whale_1/img",
+      "num_frames": 260,
+      "fps": 30.0,
+      "sequence": "whale_1"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/hot-air_balloon_50/img",
+      "num_frames": 196,
+      "fps": 30.0,
+      "sequence": "hot-air_balloon_50"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Train/skyscraper_4/img",
+      "num_frames": 443,
+      "fps": 30.0,
+      "sequence": "skyscraper_4"
+    },
+    {
+      "dataset": "webuav_3m",
+      "modality": "rgb_only",
+      "frame_dir": "/root/autodl-tmp/data/WebUAV-3M/Val/box_truck_50/img",
+      "num_frames": 551,
+      "fps": 30.0,
+      "sequence": "box_truck_50"
+    }
+  ]
+}
